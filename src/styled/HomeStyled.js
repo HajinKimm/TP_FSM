@@ -28,11 +28,12 @@ export const HomeWrap = styled.div`
     .visual1{
         margin-top: 120px;
         ${bg}
-        background-image: url('../../public/images/visual5.jpg');
+        background-image: url('../../public/images/visual/visual5.jpg');
         height: 900px;
+        position: relative;
         p{
             position: absolute;
-            bottom: 180px;
+            bottom: 130px;
             right: 300px;
             a{
                 background: rgba(92, 133, 85,0.6);
@@ -215,7 +216,7 @@ export const HomeWrap = styled.div`
     .visual3{
         ${bg}
         width: 100%;
-        background-image: url('../../public/images/playstore.png');
+        background-image: url('../../public/images/visual/playstore.png');
         height: 600px;
         position: relative;
         p{
