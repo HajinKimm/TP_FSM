@@ -4,15 +4,15 @@
 
 |             | 이름   | Github                                  | 작업사항                                                                                                                                                                                                                                                                                                                             |
 | :---------- | :----- | :-------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| FE          | 김하진 | [@HajinKimm](https://github.com/HajinKimm) | [메인]()<br />[경기일정]()<br />[게시판]()<br />[로그인]()/[회원가입]() |
-| FE          | 김형종 | [@Ocjji](https://github.com/Ocjji)         | [스쿼드메이커]()<br />[굿즈]()<br />[게시판 작성]()                                                                                                           |
-| FE        | 이명관 | [@audrhks29](https://github.com/audrhks29) | [선수명단]()<br />[선수명단추가]()<br />[장바구니]()                 |
+| FE          | 김하진 | [@HajinKimm](https://github.com/HajinKimm) | [메인](https://hajinkimm.github.io/TP_FSM/dist/)<br />[경기일정](https://hajinkimm.github.io/TP_FSM/dist/#/game_schedule)<br />[게시판](https://hajinkimm.github.io/TP_FSM/dist/#/notice)<br />[뉴스](https://hajinkimm.github.io/TP_FSM/dist/#/news)<br />[로그인](https://hajinkimm.github.io/TP_FSM/dist/#/login)/[회원가입](https://hajinkimm.github.io/TP_FSM/dist/#/join) |
+| FE          | 김형종 | [@Ocjji](https://github.com/Ocjji)         | [스쿼드메이커](https://hajinkimm.github.io/TP_FSM/dist/#/squad)<br />[굿즈](https://hajinkimm.github.io/TP_FSM/dist/#/store)<br />[게시판 작성](https://hajinkimm.github.io/TP_FSM/dist/#/notice/writing/squad)                                                                                                           |
+| FE        | 이명관 | [@audrhks29](https://github.com/audrhks29) | [선수명단](https://hajinkimm.github.io/TP_FSM/dist/#/playerInfo)<br />[선수명단추가](https://hajinkimm.github.io/TP_FSM/dist/#/addPlayer)<br />[장바구니](https://hajinkimm.github.io/TP_FSM/dist/#/cart)                 |
 
 
 
 # 프로젝트 사이트
 
-<a href="https://hajinkimm.github.io/TP_FSM/" target="_blank"><img src="./public/images/visual/logo.png"></a>
+<a href="https://hajinkimm.github.io/TP_FSM/dist/" target="_blank"><img src="./public/images/visual/logo.png"></a>
 
 <br>
 <br>
@@ -98,6 +98,6 @@
 
 ### 8) 로그인 / 회원가입
 
-* 약관보기 페이지 열림/닫힘 구현
+* 약관보기 아코드언메뉴 구현
 * 체크박스 전체동의 구현
 <img src="./mdImages/login.gif">

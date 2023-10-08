@@ -6,7 +6,7 @@ export const LoginWrap = styled.div`
         h2{
             ${h2}
             color: #000;
-            text-shadow: 0px 0px 0px #fff;
+            text-shadow: none;
         }
         .login{
             text-align: center;
