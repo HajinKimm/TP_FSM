@@ -226,12 +226,11 @@ const JoinForm = () => {
                             </tr>
                             <tr>
                                 <td><label htmlFor="userEmail"><b>*</b>이메일</label></td>
-                                <td>
+                                {/* <td>
                                     <input type="email" id="userEmail" required className="w700" value={email} onChange={onChangeEmail}/>
                                     <p className="message">{emailMessage}</p>
-                                </td>
-                            </tr>
-                            {/* <td>
+                                </td> */}
+                            <td>
                                     <input type="email" id="userEmail" required className="w400" />
                                     <span>@</span>
                                     <input type="email" className="w230" value={emailAddr} onChange={emailInput}/>
@@ -241,7 +240,8 @@ const JoinForm = () => {
                                         <option value='gmail.com'>gmail.com</option>
                                         <option value='hanmail.net'>hanmail.net</option>
                                     </select>
-                                </td> */}
+                                </td>
+                            </tr>
                             <tr>
                                 <td><label htmlFor="userTel"><b>*</b>휴대폰번호</label> </td>
                                 <td className='telSelect'>
@@ -270,7 +270,7 @@ const JoinForm = () => {
                                     <label htmlFor="woman">여자</label>
                                 </td>
                             </tr>
-                            {/* <tr>
+                            <tr>
                                 <td><label htmlFor="userBirth">생년월일</label> </td>
                                 <td className='birthSelect'>
                                     <p>
@@ -295,8 +295,8 @@ const JoinForm = () => {
 
                                     </p>
                                 </td>
-                            </tr> */}
-                            {/* <tr>
+                            </tr>
+                            <tr>
                                 <td><label htmlFor="userAddr">주소</label></td>
                                 <td className='addInput'>
                                     <input type="text" id="sample4_postcode" placeholder="우편번호" className='w200'/>
@@ -307,7 +307,7 @@ const JoinForm = () => {
                                     <input type="text" id="sample4_detailAddress" placeholder="상세주소" className='w400'/>
                                     <input type="text" id="sample4_extraAddress" placeholder="참고항목" className='w500'/>
                                 </td>
-                            </tr> */}
+                            </tr>
                             <tr>
                                 <td>개인정보 유효기간</td>
                                 <td className='expiration'>

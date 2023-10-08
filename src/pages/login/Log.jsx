@@ -67,7 +67,7 @@ const Log = () => {
                                     <input type="text" placeholder='휴대폰 본인인증으로 비밀번호 찾기'/>
                                     <button className='certificationBtn'>인증하기</button>
                                 </p>
-                                <p className='btnWrap'><button onClick={()=>setUserFind(0)} className='closeBtn'>닫기</button><button>확인</button></p>
+                                <p className='btnWrap'><button onClick={()=>setUserFind(0)} className='closeBtn'><span>닫기</span></button><button><span>확인</span></button></p>
                             </div>
                         </div>
                     }
