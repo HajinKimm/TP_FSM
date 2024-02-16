@@ -2,11 +2,11 @@
 
 ## 팀원
 
-|             | 이름   | Github                                  | 작업사항                                                                                                                                                                                                                                                                                                                             |
-| :---------- | :----- | :-------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| FE          | 김하진 | [@HajinKimm](https://github.com/HajinKimm) | [메인](https://hajinkimm.github.io/TP_FSM/dist/)<br />[경기일정](https://hajinkimm.github.io/TP_FSM/dist/#/game_schedule)<br />[게시판](https://hajinkimm.github.io/TP_FSM/dist/#/notice)<br />[뉴스](https://hajinkimm.github.io/TP_FSM/dist/#/news)<br />[로그인](https://hajinkimm.github.io/TP_FSM/dist/#/login)/[회원가입](https://hajinkimm.github.io/TP_FSM/dist/#/join) |
-| FE          | 김형종 | [@Ocjji](https://github.com/Ocjji)         | [스쿼드메이커](https://hajinkimm.github.io/TP_FSM/dist/#/squad)<br />[굿즈](https://hajinkimm.github.io/TP_FSM/dist/#/store)<br />[게시판 작성](https://hajinkimm.github.io/TP_FSM/dist/#/notice/writing/squad)                                                                                                           |
-| FE        | 이명관 | [@audrhks29](https://github.com/audrhks29) | [선수명단](https://hajinkimm.github.io/TP_FSM/dist/#/playerInfo)<br />[선수명단추가](https://hajinkimm.github.io/TP_FSM/dist/#/addPlayer)<br />[장바구니](https://hajinkimm.github.io/TP_FSM/dist/#/cart)                 |
+|      | 이름   | Github                                     | 작업사항                                                                                                                                                                                                                                                                                                                                                                        |
+| :--- | :----- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| FE   | 김하진 | [@HajinKimm](https://github.com/HajinKimm) | [메인](https://hajinkimm.github.io/TP_FSM/dist/)<br />[경기일정](https://hajinkimm.github.io/TP_FSM/dist/#/game_schedule)<br />[게시판](https://hajinkimm.github.io/TP_FSM/dist/#/notice)<br />[뉴스](https://hajinkimm.github.io/TP_FSM/dist/#/news)<br />[로그인](https://hajinkimm.github.io/TP_FSM/dist/#/login)/[회원가입](https://hajinkimm.github.io/TP_FSM/dist/#/join) |
+| FE   | 김형종 | [@Ocjji](https://github.com/Ocjji)         | [스쿼드메이커](https://hajinkimm.github.io/TP_FSM/dist/#/squad)<br />[굿즈](https://hajinkimm.github.io/TP_FSM/dist/#/store)<br />[게시판 작성](https://hajinkimm.github.io/TP_FSM/dist/#/notice/writing/squad)                                                                                                                                                                 |
+| FE   | 이명관 | [@audrhks29](https://github.com/audrhks29) | [선수명단](https://hajinkimm.github.io/TP_FSM/dist/#/playerInfo)<br />[선수명단추가](https://hajinkimm.github.io/TP_FSM/dist/#/addPlayer)<br />[장바구니](https://hajinkimm.github.io/TP_FSM/dist/#/cart)                                                                                                                                                                       |
 
 
 
@@ -14,27 +14,34 @@
 
 <a href="https://hajinkimm.github.io/TP_FSM/dist/" target="_blank"><img src="./public/images/visual/logo.png"></a>
 
+[사이트 바로가기](https://hajinkimm.github.io/TP_FSM/dist/)
+
 <br>
 <br>
 
 # 프로젝트 참고 사이트
 
-1. <a href="https://www.kfa.or.kr/" target="_blank">대한축구협회</a>
-2. <a href="https://fconline.nexon.com/datacenter/squadmaker/" target="_blank">FC ONLINE</a>
+1. [대한축구협회](https://www.kfa.or.kr)
+2. [FC ONLINE](https://fconline.nexon.com/datacenter/squadmaker)
 
 # 프로젝트 기술 스택
 
-- [X] React JS (vite)
-- [X] Styled-Components
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"> <img src="https://img.shields.io/badge/styled_components-DB7093?style=flat-square&logo=styledcomponents&logoColor=white">
 
 
 ## 프로젝트 작업 순서
-1. 참고 페이지 선정
-2. 페이지 리뉴얼 및 디자인 수정
-3. React JS (vite) / Styled-Components
+1. 프로젝트 컨셉 회의 및 선정
+2. 참고 페이지 선정
+3. 페이지 리뉴얼 회의
+4. 와이어프레임 제작
+5. 디자인 적용
+6. 페이지 분담 및 프레임워크, 라이브러리 선정
+7. 페이지 분담에 따른 프로젝트 제작
 
 ## Wireframe
 <img src="./mdImages/frame.png">
+
+[Figma Link](https://www.figma.com/file/lipd6EeDegBbtLATWUcWjm/Player-Squad?type=design&node-id=0-1&mode=design) 
 
 # 프로젝트 기능 구현
 
@@ -98,6 +105,6 @@
 
 ### 8) 로그인 / 회원가입
 
-* 약관보기 아코드언메뉴 구현
+* 약관보기 아코디언 메뉴 구현
 * 체크박스 전체동의 구현
 <img src="./mdImages/login.gif">
